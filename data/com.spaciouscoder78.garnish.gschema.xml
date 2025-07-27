@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="garnish">
+	<schema id="com.spaciouscoder78.garnish" path="/com/spaciouscoder78/garnish/">
+	</schema>
+</schemalist>

@@ -1,2 +1,3 @@
 # garnish
-Your Digital Cookbook - built using GTK4
+
+A description of this project.
