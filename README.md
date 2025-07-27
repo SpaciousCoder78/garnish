@@ -1,3 +1,5 @@
 # garnish
 
-A description of this project.
+<p align="center">
+  <img align="center" width="auto" height="150" alt="image" src="https://github.com/user-attachments/assets/7e64c3db-b15f-4858-91bd-389490a6d2bc" />
+</p>
