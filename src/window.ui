@@ -42,8 +42,10 @@
                     <property name="name">beginning</property>
                     <property name="title" translatable="yes">In the beginning…</property>
                     <property name="child">
-                      <object class="GtkLabel">
-                        <property name="label" translatable="yes">It was dark</property>
+                      <object class="AdwStatusPage">
+                        <property name="icon-name">chicken</property>
+                        <property name="title">Pigment</property>
+                        <property name="description" translatable="yes">Select an image to get started!</property>
                       </object>
                     </property>
                   </object>
