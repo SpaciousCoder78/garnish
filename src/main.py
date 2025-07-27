@@ -51,12 +51,12 @@ class GarnishApplication(Adw.Application):
 
     def on_about_action(self, *args):
         """Callback for the app.about action."""
-        about = Adw.AboutDialog(application_name='garnish',
+        about = Adw.AboutDialog(application_name='Garnish',
                                 application_icon='com.spaciouscoder78.garnish',
-                                developer_name='aryan',
+                                developer_name='SpaciousCoder78',
                                 version='0.1.0',
-                                developers=['aryan'],
-                                copyright='© 2025 aryan')
+                                developers=['SpaciousCoder78'],
+                                copyright='© 2025 SpaciousCoder78')
         # Translators: Replace "translator-credits" with your name/username, and optionally an email or URL.
         about.set_translator_credits(_('translator-credits'))
         about.present(self.props.active_window)
