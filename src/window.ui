@@ -32,9 +32,18 @@
             <child>
               <object class="GtkStack" id="stack">
                 <property name="hexpand">True</property>
+                <property name="visible-child-name">mainpage</property>
                 <child>
-                  <object class="GtkLabel" id="label">
-                    <property name="visible">True</property>
+                  <object class="GtkStackPage">
+                    <property name="name">mainpage</property>
+                    <property name="title" translatable="yes">Home Page</property>
+                    <property name="child">
+                      <object class="AdwStatusPage">
+                        <property name="icon-name">com.spaciouscoder78.garnish</property>
+                        <property name="title">Garnish</property>
+                        <property name="description" translatable="yes">Select a recipe and start cooking!</property>
+                      </object>
+                    </property>
                   </object>
                 </child>
                 <child>
