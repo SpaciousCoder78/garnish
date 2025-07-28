@@ -25,12 +25,12 @@
             <property name="orientation">horizontal</property>
             <child>
               <object class="GtkStackSidebar">
-                <property name="stack">stack</property>
+                <property name="stack">main_stack</property>
                 <property name="vexpand">True</property>
               </object>
             </child>
             <child>
-              <object class="GtkStack" id="stack">
+              <object class="GtkStack" id="main_stack">
                 <property name="hexpand">True</property>
                 <property name="visible-child-name">mainpage</property>
                 <child>
@@ -49,12 +49,85 @@
                 <child>
                   <object class="GtkStackPage">
                     <property name="name">beginning</property>
-                    <property name="title" translatable="yes">In the beginning…</property>
+                    <property name="title" translatable="yes">Chicken Biryani</property>
                     <property name="child">
                       <object class="AdwStatusPage">
-                        <property name="icon-name">chicken</property>
-                        <property name="title">Pigment</property>
-                        <property name="description" translatable="yes">Select an image to get started!</property>
+                        <property name="title">Chicken Biryani</property>
+                        <property name="description" translatable="yes">
+                          🍗 Chicken Biryani Recipe (Serves 4-5)
+
+                                  📝 Ingredients
+
+                              For Chicken Marinade:
+
+                          -  500g chicken (with bone)
+
+                    -        ½ cup yogurt
+
+    1 tbsp ginger-garlic paste
+
+    1 tsp red chili powder
+
+    ½ tsp turmeric powder
+
+    1 tsp garam masala
+
+    1 tbsp lemon juice
+
+    Salt to taste
+
+    2 tbsp fried onions (optional)
+
+    Handful chopped mint and coriander
+
+For Rice:
+11. 2 cups basmati rice (soaked 30 mins)
+12. Whole spices – 4 cloves, 2 cardamoms, 1 bay leaf, 1 small cinnamon stick
+13. Salt – to taste
+
+For Biryani Assembly:
+14. 2 tbsp ghee or oil
+15. Saffron – a pinch soaked in 2 tbsp warm milk
+16. Fried onions – for layering
+17. Extra mint and coriander – for layering
+🔪 Steps
+
+    Marinate Chicken: Combine all marinade ingredients in a bowl. Mix well and let sit for at least 1 hour (preferably overnight).
+
+    Cook Rice: Boil water with salt and whole spices. Add soaked rice and cook till 70% done (still firm). Drain and set aside.
+
+    Cook Chicken: In a heavy-bottomed pan or biryani pot, heat oil/ghee. Add marinated chicken and cook on medium heat for 8–10 minutes till half cooked.
+
+    Layering:
+
+        Spread half-cooked rice over chicken.
+
+        Sprinkle fried onions, mint, coriander, saffron milk, and a drizzle of ghee.
+
+        Optional: Add a few drops of rose/kewra water.
+
+    Dum Cooking (Steam Cook):
+
+        Seal the lid with dough or a tight-fitting lid.
+
+        Cook on low heat for 20–25 minutes.
+
+        Alternatively: Use a griddle/tawa underneath for indirect heat.
+
+    Rest and Serve:
+
+        Let biryani rest for 10 minutes after turning off the heat.
+
+        Gently fluff rice before serving.
+
+✅ Tips
+
+    Use aged basmati rice for best texture.
+
+    Avoid overcooking rice before layering.
+
+    For a richer taste, add some fried cashews and raisins.
+                        </property>
                       </object>
                     </property>
                   </object>
